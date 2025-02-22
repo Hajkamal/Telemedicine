@@ -1,9 +1,9 @@
 <p align="center">
   <img src="https://github.com/Hajkamal/Telemedicine/blob/main/logo-basina.png?raw=true" alt="BASINA Logo" width="200"/>
 </p>
-<h1 align="center">BASINA - Smart Healthcare Platform 🚀</h1>
+<h1 align="center"> 🌐 BASINA - Smart Healthcare Platform 🚀</h1>
 
-# 🌐 BASINA - Smart Healthcare Platform 🚀  
+
 **BASINA** is a cutting-edge **telemedicine platform** that connects patients with expert doctors, offering:  
 
 ✅ **Online Medical Consultations** 💬  
