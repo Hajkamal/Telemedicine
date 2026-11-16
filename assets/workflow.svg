@@ -69,9 +69,9 @@
     </g>
     <circle cx="184" cy="258" r="14" fill="#3D61FF" stroke="#0a1430" stroke-width="2.5"/>
     <text x="184" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">1</text>
-    <text x="150" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Choose a service</text>
-    <text x="150" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Appointment, consultation,</text>
-    <text x="150" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">lab or triage</text>
+    <text x="150" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7ff">Choose a service</text>
+    <text x="150" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">Appointment, consultation,</text>
+    <text x="150" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">lab or triage</text>
   </g>
 
   <!-- step 2 -->
@@ -84,9 +84,9 @@
     </g>
     <circle cx="484" cy="258" r="14" fill="#0d9488" stroke="#0a1430" stroke-width="2.5"/>
     <text x="484" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">2</text>
-    <text x="450" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Share your case</text>
-    <text x="450" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Symptoms, lab reports or</text>
-    <text x="450" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">medical history</text>
+    <text x="450" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7ff">Share your case</text>
+    <text x="450" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">Symptoms, lab reports or</text>
+    <text x="450" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">medical history</text>
   </g>
 
   <!-- step 3 -->
@@ -99,9 +99,9 @@
     </g>
     <circle cx="784" cy="258" r="14" fill="#7c3aed" stroke="#0a1430" stroke-width="2.5"/>
     <text x="784" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">3</text>
-    <text x="750" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">AI-assisted clarity</text>
-    <text x="750" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Values and patterns,</text>
-    <text x="750" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">organized clearly</text>
+    <text x="750" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7ff">AI-assisted clarity</text>
+    <text x="750" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">Values and patterns,</text>
+    <text x="750" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">organized clearly</text>
   </g>
 
   <!-- step 4 -->
@@ -115,9 +115,9 @@
     </g>
     <circle cx="1084" cy="258" r="14" fill="#3D61FF" stroke="#0a1430" stroke-width="2.5"/>
     <text x="1084" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">4</text>
-    <text x="1050" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Doctor review</text>
-    <text x="1050" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">A licensed specialist</text>
-    <text x="1050" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">decides</text>
+    <text x="1050" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7ff">Doctor review</text>
+    <text x="1050" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">A licensed specialist</text>
+    <text x="1050" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">decides</text>
   </g>
 
   <!-- step 5 -->
@@ -129,8 +129,8 @@
     </g>
     <circle cx="1384" cy="258" r="14" fill="#f5a524" stroke="#0a1430" stroke-width="2.5"/>
     <text x="1384" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#1a1206">5</text>
-    <text x="1350" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Record &amp; follow-up</text>
-    <text x="1350" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Saved with consent,</text>
-    <text x="1350" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">available later</text>
+    <text x="1350" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7ff">Record &amp; follow-up</text>
+    <text x="1350" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">Saved with consent,</text>
+    <text x="1350" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">available later</text>
   </g>
 </svg>

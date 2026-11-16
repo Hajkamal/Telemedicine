@@ -44,7 +44,7 @@
   <text x="82" y="60" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#5eead4">TRUST BY DESIGN</text>
   <text x="80" y="112" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="-1" fill="#f4f7ff">AI assists. <tspan fill="url(#accent)">Doctors decide.</tspan></text>
   <text x="82" y="144" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="15" fill="#93a4c8">Technology supports the journey; clinical accountability stays human.</text>
-  <text x="82" y="176" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#ffd08a" direction="rtl" text-anchor="end">هوش مصنوعی کمک می‌کند، پزشک تصمیم می‌گیرد</text>
+  <text x="82" y="176" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="18.5" font-weight="700" fill="#ffd08a" direction="rtl" text-anchor="end">هوش مصنوعی کمک می‌کند، پزشک تصمیم می‌گیرد</text>
 
   <!-- card 1 -->
   <g>
@@ -59,10 +59,10 @@
         <circle cx="21.5" cy="13.5" r="2.8"/>
       </g>
     </g>
-    <text x="106" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">Human oversight</text>
-    <text x="106" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">Licensed physicians remain responsible for diagnosis,</text>
-    <text x="106" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">advice, and treatment decisions.</text>
-    <text x="106" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="11.5" fill="#7f93bd" direction="rtl" text-anchor="end">پزشک متخصص تصمیم نهایی را می‌گیرد</text>
+    <text x="106" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#f4f7ff">Human oversight</text>
+    <text x="106" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" fill="#8fa3c8">Licensed physicians remain responsible for diagnosis,</text>
+    <text x="106" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" fill="#8fa3c8">advice, and treatment decisions.</text>
+    <text x="106" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="12" fill="#7f93bd" direction="rtl" text-anchor="end">پزشک متخصص تصمیم نهایی را می‌گیرد</text>
   </g>
 
   <!-- card 2 -->
@@ -76,10 +76,10 @@
         <path d="M10 14l3 3 6-6"/>
       </g>
     </g>
-    <text x="526" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">Consent-first records</text>
-    <text x="526" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">Health records are created with consent. Patients</text>
-    <text x="526" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">choose what to share, and with whom.</text>
-    <text x="526" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="11.5" fill="#7f93bd" direction="rtl" text-anchor="end">داده سلامت فقط با رضایت شما ذخیره می‌شود</text>
+    <text x="526" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#f4f7ff">Consent-first records</text>
+    <text x="526" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" fill="#8fa3c8">Health records are created with consent. Patients</text>
+    <text x="526" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" fill="#8fa3c8">choose what to share, and with whom.</text>
+    <text x="526" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="12" fill="#7f93bd" direction="rtl" text-anchor="end">داده سلامت فقط با رضایت شما ذخیره می‌شود</text>
   </g>
 
   <!-- card 3 -->
@@ -94,9 +94,9 @@
         <path d="M10 13l-2.5 2.5L10 18M18 13l2.5 2.5L18 18"/>
       </g>
     </g>
-    <text x="946" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">No patient data in this repo</text>
-    <text x="946" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">This public repository holds documentation only —</text>
-    <text x="946" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">never medical records, keys, or credentials.</text>
-    <text x="946" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="11.5" fill="#7f93bd" direction="rtl" text-anchor="end">این مخزن هیچ پرونده پزشکی یا داده بیمار ندارد</text>
+    <text x="946" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#f4f7ff">No patient data in this repo</text>
+    <text x="946" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" fill="#8fa3c8">This public repository holds documentation only —</text>
+    <text x="946" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" fill="#8fa3c8">never medical records, keys, or credentials.</text>
+    <text x="946" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="12" fill="#7f93bd" direction="rtl" text-anchor="end">این مخزن هیچ پرونده پزشکی یا داده بیمار ندارد</text>
   </g>
 </svg>

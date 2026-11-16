@@ -56,7 +56,7 @@
   <text x="58" y="116" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.1" fill="#f4f7ff">Care that travels with you.</text>
   <text x="60" y="152" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16.5" fill="#93a4c8">Online across Iran today — in-person in six provinces, expanding to the region.</text>
 
-  <g font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" font-weight="700">
+  <g font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="700">
     <rect x="1082" y="58" width="112" height="42" rx="21" fill="#0d1734" stroke="#2b3f7a"/>
     <text x="1138" y="84" text-anchor="middle" fill="#c3d2f5">56 cities</text>
     <rect x="1206" y="58" width="128" height="42" rx="21" fill="#0d1734" stroke="#2b3f7a"/>
@@ -94,41 +94,41 @@
     <circle cx="415.4" cy="445.4" r="8" fill="none" stroke="#f5a524" stroke-width="1.3" class="pulse" style="animation-delay:0.0s"/>
     <circle cx="415.4" cy="445.4" r="4.4" fill="#f5a524" filter="url(#dotGlow)"/>
     <circle cx="415.4" cy="445.4" r="1.6" fill="#1a1206"/>
-    <text x="429.4" y="442.4" text-anchor="start" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Isfahan</text>
+    <text x="429.4" y="442.4" text-anchor="start" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Isfahan</text>
   </g>
   <g>
     <circle cx="533.4" cy="506.3" r="8" fill="none" stroke="#f5a524" stroke-width="1.3" class="pulse" style="animation-delay:0.4s"/>
     <circle cx="533.4" cy="506.3" r="4.4" fill="#f5a524" filter="url(#dotGlow)"/>
     <circle cx="533.4" cy="506.3" r="1.6" fill="#1a1206"/>
-    <text x="547.4" y="516.3" text-anchor="start" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Kerman</text>
+    <text x="547.4" y="516.3" text-anchor="start" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Kerman</text>
   </g>
   <g>
     <circle cx="434.2" cy="524.1" r="8" fill="none" stroke="#f5a524" stroke-width="1.3" class="pulse" style="animation-delay:0.8s"/>
     <circle cx="434.2" cy="524.1" r="4.4" fill="#f5a524" filter="url(#dotGlow)"/>
     <circle cx="434.2" cy="524.1" r="1.6" fill="#1a1206"/>
-    <text x="420.2" y="530.1" text-anchor="end" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Fars (Shiraz)</text>
+    <text x="420.2" y="530.1" text-anchor="end" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Fars (Shiraz)</text>
   </g>
   <g>
     <circle cx="350.3" cy="479.6" r="8" fill="none" stroke="#f5a524" stroke-width="1.3" class="pulse" style="animation-delay:1.2s"/>
     <circle cx="350.3" cy="479.6" r="4.4" fill="#f5a524" filter="url(#dotGlow)"/>
     <circle cx="350.3" cy="479.6" r="1.6" fill="#1a1206"/>
-    <text x="336.3" y="484.6" text-anchor="end" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Khuzestan</text>
+    <text x="336.3" y="484.6" text-anchor="end" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Khuzestan</text>
   </g>
   <g>
     <circle cx="397.4" cy="541.2" r="8" fill="none" stroke="#f5a524" stroke-width="1.3" class="pulse" style="animation-delay:1.6s"/>
     <circle cx="397.4" cy="541.2" r="4.4" fill="#f5a524" filter="url(#dotGlow)"/>
     <circle cx="397.4" cy="541.2" r="1.6" fill="#1a1206"/>
-    <text x="383.4" y="563.2" text-anchor="end" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Bushehr</text>
+    <text x="383.4" y="563.2" text-anchor="end" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Bushehr</text>
   </g>
   <g>
     <circle cx="515.9" cy="585.9" r="8" fill="none" stroke="#f5a524" stroke-width="1.3" class="pulse" style="animation-delay:2.0s"/>
     <circle cx="515.9" cy="585.9" r="4.4" fill="#f5a524" filter="url(#dotGlow)"/>
     <circle cx="515.9" cy="585.9" r="1.6" fill="#1a1206"/>
-    <text x="529.9" y="598.9" text-anchor="start" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Hormozgan</text>
+    <text x="529.9" y="598.9" text-anchor="start" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Hormozgan</text>
   </g>
 
   <!-- legend -->
-  <g font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11" fill="#93a4c8">
+  <g font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#93a4c8">
     <circle cx="96" cy="668" r="4.5" fill="#f5a524"/>
     <text x="110" y="672">In-person network</text>
     <circle cx="248" cy="668" r="4.5" fill="#5b7cff"/>
@@ -160,8 +160,8 @@
       <path d="M2 14c3.5-5 7 5 10.5 0s7 5 10.5 0"/>
       <path d="M2 20c3.5-5 7 5 10.5 0s7 5 10.5 0"/>
     </g>
-    <text x="1006" y="336" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">Persian Gulf</text>
-    <text x="1006" y="358" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Near-term regional focus</text>
+    <text x="1006" y="336" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7ff">Persian Gulf</text>
+    <text x="1006" y="358" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">Near-term regional focus</text>
     <path d="M1382 336l6 6l-6 6" fill="none" stroke="#5b7cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
@@ -174,8 +174,8 @@
       <ellipse cx="14" cy="14" rx="4.5" ry="11"/>
       <path d="M3 14h22M5 8h18M5 20h18"/>
     </g>
-    <text x="1006" y="438" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">West Asia</text>
-    <text x="1006" y="460" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Cross-border specialist access</text>
+    <text x="1006" y="438" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7ff">West Asia</text>
+    <text x="1006" y="460" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">Cross-border specialist access</text>
     <path d="M1382 438l6 6l-6 6" fill="none" stroke="#5b7cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
@@ -189,8 +189,8 @@
       <path d="M15 22l4.5-11 4.5 11"/>
       <path d="M16.8 18h5.4"/>
     </g>
-    <text x="1006" y="540" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">Arabic &amp; English</text>
-    <text x="1006" y="562" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Language-ready patient journeys</text>
+    <text x="1006" y="540" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#f4f7ff">Arabic &amp; English</text>
+    <text x="1006" y="562" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#8fa3c8">Language-ready patient journeys</text>
     <path d="M1382 540l6 6l-6 6" fill="none" stroke="#5b7cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
@@ -198,5 +198,5 @@
   <text x="922" y="654" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#7f93bd">Same platform. Same record. New borders.</text>
   <text x="1408" y="676" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="13" fill="#ffd08a" direction="rtl" text-anchor="start">همان پلتفرم، همان پرونده، مرزهای تازه</text>
 
-  <text x="750" y="736" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12.5" fill="#6f83ad">International availability, languages, and payment options are being rolled out progressively.</text>
+  <text x="750" y="736" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" fill="#6f83ad">International availability, languages, and payment options are being rolled out progressively.</text>
 </svg>
