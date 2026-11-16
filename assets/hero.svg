@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Basina — Healthcare without borders</title>
+  <desc id="heroDesc">Basina digital health platform: online doctor consultations, appointment booking, AI-assisted lab interpretation and electronic health records. Built in Iran, expanding across the Persian Gulf and West Asia.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050914"/>
+      <stop offset="0.55" stop-color="#081026"/>
+      <stop offset="1" stop-color="#0a1430"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3D61FF" stop-opacity="0.42"/>
+      <stop offset="0.55" stop-color="#3D61FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#3D61FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTeal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#7aa2ff"/>
+      <stop offset="0.55" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#a5b4ff"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#0e1b3f" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#091229" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3D61FF"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3D61FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5eead4" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#3D61FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8fb0ff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="0.7" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect width="1600" height="640" fill="url(#gridFade)"/>
+    </mask>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#01040d" flood-opacity="0.55"/>
+    </filter>
+    <filter id="nodeGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .float { animation: floatY 6.5s ease-in-out infinite; }
+      .float-delay { animation: floatY 7.5s ease-in-out infinite 0.8s; }
+      .ring1 { animation: ringPulse 3.4s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      .ring2 { animation: ringPulse 3.4s ease-out infinite 1.7s; transform-box: fill-box; transform-origin: center; }
+      .ecg { animation: ecgFlow 3.2s linear infinite; }
+      .live { animation: blink 1.9s ease-in-out infinite; }
+      .glow { animation: breathe 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .dot { animation: dotPulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .dot2 { animation: dotPulse 3s ease-in-out infinite 0.5s; transform-box: fill-box; transform-origin: center; }
+      .dot3 { animation: dotPulse 3s ease-in-out infinite 1s; transform-box: fill-box; transform-origin: center; }
+      @keyframes floatY { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      @keyframes ringPulse { 0% { transform: scale(0.82); opacity: 0.55; } 75% { transform: scale(1.32); opacity: 0; } 100% { transform: scale(1.32); opacity: 0; } }
+      @keyframes ecgFlow { 0% { stroke-dashoffset: 360; } 100% { stroke-dashoffset: 0; } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.28; } }
+      @keyframes breathe { 0%, 100% { opacity: 0.75; transform: scale(1); } 50% { opacity: 1; transform: scale(1.06); } }
+      @keyframes dotPulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .float, .float-delay, .ring1, .ring2, .ecg, .live, .glow, .dot, .dot2, .dot3 { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#bg)"/>
+  <rect width="1600" height="640" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <g class="glow">
+    <circle cx="1230" cy="250" r="430" fill="url(#glowBlue)"/>
+    <circle cx="1480" cy="560" r="320" fill="url(#glowTeal)"/>
+  </g>
+  <circle cx="820" cy="640" r="260" fill="url(#glowTeal)" opacity="0.35"/>
+
+  <!-- brand -->
+  <g>
+    <rect x="92" y="58" width="64" height="64" rx="17" fill="#eef2ff"/>
+    <image x="99" y="65" width="50" height="50" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEn2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9JycKICB4bWxuczpBdHRyaWI9J2h0dHA6Ly9ucy5hdHRyaWJ1dGlvbi5jb20vYWRzLzEuMC8nPgogIDxBdHRyaWI6QWRzPgogICA8cmRmOlNlcT4KICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0nUmVzb3VyY2UnPgogICAgIDxBdHRyaWI6Q3JlYXRlZD4yMDI0LTEyLTEwPC9BdHRyaWI6Q3JlYXRlZD4KICAgICA8QXR0cmliOkV4dElkPjA0MWFiYTE3LWJjZGItNDI5Mi1hNGU1LTkxNGUyNjNlNjIwZTwvQXR0cmliOkV4dElkPgogICAgIDxBdHRyaWI6RmJJZD41MjUyNjU5MTQxNzk1ODA8L0F0dHJpYjpGYklkPgogICAgIDxBdHRyaWI6VG91Y2hUeXBlPjI8L0F0dHJpYjpUb3VjaFR5cGU+CiAgICA8L3JkZjpsaT4KICAgPC9yZGY6U2VxPgogIDwvQXR0cmliOkFkcz4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PScnCiAgeG1sbnM6ZGM9J2h0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvJz4KICA8ZGM6dGl0bGU+CiAgIDxyZGY6QWx0PgogICAgPHJkZjpsaSB4bWw6bGFuZz0neC1kZWZhdWx0Jz5VbnRpdGxlZCBkZXNpZ24gLSAxPC9yZGY6bGk+CiAgIDwvcmRmOkFsdD4KICA8L2RjOnRpdGxlPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpEZXNjcmlwdGlv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"/>
+    <text x="172" y="88" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="6.5" fill="#f4f7ff">BASINA</text>
+    <text x="173" y="110" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="3.4" fill="#6f86b8">DIGITAL HEALTH PLATFORM</text>
+  </g>
+
+  <text x="96" y="205" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3.2" fill="#6ea0ff">TELEMEDICINE · AI TRIAGE · ELECTRONIC HEALTH RECORDS</text>
+
+  <text x="94" y="288" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="80" font-weight="800" letter-spacing="-2.4" fill="#f6f9ff">Healthcare,</text>
+  <text x="94" y="372" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="80" font-weight="800" letter-spacing="-2.4" fill="url(#accent)">without borders.</text>
+
+  <text x="96" y="428" direction="rtl" text-anchor="end" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="33" font-weight="700" fill="#ffd08a">سلامت، بدون مرز</text>
+
+  <text x="96" y="472" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18.5" fill="#93a4c8">Licensed specialists, AI-assisted clarity, and a health record that follows you.</text>
+  <text x="96" y="500" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18.5" fill="#93a4c8">Built in Iran — expanding across the Persian Gulf, West Asia, and beyond.</text>
+
+  <!-- stat chips -->
+  <g font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="14" font-weight="600">
+    <rect x="96" y="532" width="176" height="44" rx="22" fill="#0d1734" stroke="#2b3f7a"/>
+    <circle cx="120" cy="554" r="4" fill="#5eead4"/>
+    <text x="136" y="559" fill="#c3d2f5">900+ doctors</text>
+
+    <rect x="288" y="532" width="196" height="44" rx="22" fill="#0d1734" stroke="#2b3f7a"/>
+    <circle cx="312" cy="554" r="4" fill="#7aa2ff"/>
+    <text x="328" y="559" fill="#c3d2f5">107 specialties</text>
+
+    <rect x="500" y="532" width="158" height="44" rx="22" fill="#0d1734" stroke="#2b3f7a"/>
+    <circle cx="524" cy="554" r="4" fill="#f5a524"/>
+    <text x="540" y="559" fill="#c3d2f5">56 cities</text>
+
+    <rect x="674" y="532" width="200" height="44" rx="22" fill="#0d1734" stroke="#2b3f7a"/>
+    <circle cx="698" cy="554" r="4" fill="#5eead4"/>
+    <text x="714" y="559" fill="#c3d2f5">Online across Iran</text>
+  </g>
+
+  <!-- consultation card -->
+  <g class="float">
+    <g transform="rotate(-2 1240 300)" filter="url(#softShadow)">
+      <rect x="1010" y="110" width="430" height="350" rx="26" fill="url(#cardGrad)" stroke="#2c4384"/>
+      <rect x="1010" y="110" width="430" height="350" rx="26" fill="none" stroke="#5eead4" stroke-opacity="0.08"/>
+
+      <text x="1042" y="153" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="2.2" fill="#8fa3c8">ONLINE CONSULTATION</text>
+      <circle cx="1382" cy="148" r="4.5" fill="#34d399" class="live"/>
+      <text x="1394" y="152" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.6" fill="#34d399">LIVE</text>
+      <line x1="1042" y1="172" x2="1408" y2="172" stroke="#ffffff" stroke-opacity="0.08"/>
+
+      <!-- avatar -->
+      <g>
+        <circle cx="1112" cy="244" r="46" fill="none" stroke="#3D61FF" stroke-width="1.2" class="ring1"/>
+        <circle cx="1112" cy="244" r="46" fill="none" stroke="#5eead4" stroke-width="1" class="ring2"/>
+        <circle cx="1112" cy="244" r="38" fill="url(#avatarGrad)" stroke="#9db4ff" stroke-opacity="0.45"/>
+        <text x="1112" y="252" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">SA</text>
+      </g>
+      <text x="1112" y="314" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Dr. Sara Ahmadi</text>
+      <text x="1112" y="336" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Cardiologist · 12 years</text>
+
+      <!-- ECG -->
+      <rect x="1182" y="196" width="238" height="120" rx="16" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09"/>
+      <text x="1198" y="220" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.6" fill="#8fa3c8">HEART RHYTHM</text>
+      <text x="1198" y="248" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#f4f7ff">72</text>
+      <text x="1232" y="248" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="#8fa3c8">bpm</text>
+      <g transform="translate(1198 278)">
+        <path d="M0 0 H22 L30 -16 L40 18 L49 -8 L56 0 H90 L98 -12 L107 8 L115 0 H156" fill="none" stroke="#5eead4" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M0 0 H22 L30 -16 L40 18 L49 -8 L56 0 H90 L98 -12 L107 8 L115 0 H156" fill="none" stroke="#5eead4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" pathLength="360" stroke-dasharray="70 290" class="ecg"/>
+      </g>
+      <text x="1198" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="9.5" fill="#7fe7d6">Sinus rhythm · stable</text>
+
+      <!-- language pills -->
+      <g font-family="Tahoma, 'Segoe UI', sans-serif" font-size="12" font-weight="600">
+        <rect x="1042" y="380" width="76" height="34" rx="17" fill="#3D61FF" fill-opacity="0.14" stroke="#3D61FF" stroke-opacity="0.4"/>
+        <text x="1080" y="402" text-anchor="middle" fill="#c8d5ff">فارسی</text>
+        <rect x="1128" y="380" width="86" height="34" rx="17" fill="#0d9488" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.4"/>
+        <text x="1171" y="402" text-anchor="middle" fill="#bff3ea">العربية</text>
+        <rect x="1224" y="380" width="84" height="34" rx="17" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.18"/>
+        <text x="1266" y="402" text-anchor="middle" fill="#dbe4f8">English</text>
+      </g>
+      <g>
+        <path d="M1342 391 l5 5 l9 -10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="1360" y="399" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="10" fill="#7dd3b0">Secure</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- lab insight card -->
+  <g class="float-delay">
+    <g transform="rotate(2 1100 488)" filter="url(#softShadow)">
+      <rect x="928" y="432" width="352" height="112" rx="20" fill="#0a1633" stroke="#2c4384"/>
+      <rect x="950" y="454" width="40" height="40" rx="12" fill="#3D61FF" fill-opacity="0.18" stroke="#3D61FF" stroke-opacity="0.35"/>
+      <path d="M963 464 v8 a5 5 0 0 0 10 0 v-8 M963 480 h10" fill="none" stroke="#7aa2ff" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M958 469 h20" stroke="#7aa2ff" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="1004" y="464" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.7" fill="#8fa3c8">AI LAB INSIGHT</text>
+      <text x="1004" y="488" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7ff">Hemoglobin 13.8 g/dL</text>
+      <text x="1004" y="510" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11" fill="#7dd3b0">Within normal range</text>
+      <circle cx="1242" cy="488" r="13" fill="#34d399" fill-opacity="0.14" stroke="#34d399" stroke-opacity="0.45"/>
+      <path d="M1236 488 l4 4 l8 -9" fill="none" stroke="#34d399" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- floating trust chip -->
+  <g class="float">
+    <g transform="rotate(-1.5 1400 545)">
+      <rect x="1300" y="500" width="228" height="70" rx="18" fill="#0a1633" stroke="#2c4384"/>
+      <circle cx="1330" cy="535" r="15" fill="#0d9488" fill-opacity="0.18" stroke="#2dd4bf" stroke-opacity="0.4"/>
+      <path d="M1330 526 l7 3 v6 c0 5 -7 8 -7 8 s-7 -3 -7 -8 v-6 z" fill="none" stroke="#5eead4" stroke-width="1.7" stroke-linejoin="round"/>
+      <text x="1356" y="531" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#e8efff">Consent-first record</text>
+      <text x="1356" y="549" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="10" fill="#8fa3c8">Your data, your control</text>
+    </g>
+  </g>
+
+  <!-- accent lines -->
+  <path d="M0 639 H1600" stroke="url(#lineGrad)" stroke-width="1.4"/>
+</svg>

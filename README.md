@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo-basina.png" alt="Basina — Smart Healthcare Platform" width="160" />
+  <img src="assets/hero.svg" alt="Basina — healthcare without borders. Online doctor consultations, AI-assisted lab interpretation, and electronic health records, built in Iran and expanding across the Persian Gulf and West Asia." width="100%" />
 
   <h1>Basina — Smart Healthcare, Everywhere</h1>
 
@@ -61,6 +61,10 @@ Basina is designed for patients, families, doctors, and clinics. The Persian exp
 
 ## Services
 
+![Basina services: in-person appointment booking, online doctor consultation, AI lab interpretation, AI symptom triage, electronic health record, and doctor and clinic panel](assets/services.svg)
+
+*Six connected services, one consent-based record.*
+
 ### For patients
 
 | Service | What it does | Start here |
@@ -86,6 +90,8 @@ Basina gives doctors a digital practice layer: a public profile, online appointm
 
 ## How it works
 
+![How Basina works: choose a service, share your case, get AI-assisted clarity, have a licensed doctor review it, and keep the record for follow-up](assets/workflow.svg)
+
 1. **Choose a service** — appointment, online consultation, lab interpretation, symptom triage, or a health record review.
 2. **Share what matters** — select a doctor, upload a lab report, or describe symptoms in a secure patient journey.
 3. **Get AI-assisted clarity** — where enabled, AI organizes the information and highlights values or patterns that deserve attention.
@@ -95,6 +101,8 @@ Basina gives doctors a digital practice layer: a public profile, online appointm
 ---
 
 ## Coverage and expansion
+
+![Basina coverage: online across Iran, in-person doctor network in Hormozgan, Fars, Kerman, Isfahan, Bushehr and Khuzestan, expanding to the Persian Gulf, West Asia, and Arabic- and English-speaking users](assets/coverage.svg)
 
 ### Today
 
@@ -146,6 +154,8 @@ Basina's AI features are designed as a **support layer**, not a replacement for 
 
 ## Privacy and trust
 
+![Trust by design: AI assists while licensed doctors decide, health records are consent-first, and this public repository contains no patient data](assets/trust.svg)
+
 Health data is among the most sensitive information a person can share. Basina's patient record is built around consent and controlled access.
 
 - An electronic health record is created and stored **with the user's consent**.
@@ -185,6 +195,8 @@ This repository contains **no patient data** and is not connected to production 
 This repository hosts the **public project overview** and a minimal landing page for Basina. It is a public information entry point — not the production platform.
 
 The clinical application, doctor panel, patient records, AI pipelines, and payment systems run on Basina's secured infrastructure and are not published here. No patient data, credentials, or production configuration belong in this repository.
+
+The `assets/` directory contains the original SVG graphics used in this README. They are hand-authored, include lightweight CSS animation, respect `prefers-reduced-motion`, and can be edited as plain text. Brand assets remain the property of Basina.
 
 If you are looking for the live product, start at [basina.app](https://basina.app). If you are a developer, researcher, or healthcare partner interested in collaboration, see [Contributing](#contributing).
 

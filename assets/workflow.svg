@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="470" viewBox="0 0 1500 470" role="img" aria-labelledby="flowTitle flowDesc">
+  <title id="flowTitle">How Basina works — five steps from choosing a service to follow-up</title>
+  <desc id="flowDesc">The Basina patient journey: choose a service, share your case, get AI-assisted clarity, have a licensed doctor review it, then keep the record for follow-up.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050914"/>
+      <stop offset="0.6" stop-color="#070e20"/>
+      <stop offset="1" stop-color="#0a1430"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3D61FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#3D61FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nodeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12224e"/>
+      <stop offset="1" stop-color="#0a1530"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3D61FF"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8fb0ff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <style>
+      .dash { stroke-dasharray: 9 11; animation: dashMove 1.6s linear infinite; }
+      .dot { animation: travel 3s linear infinite; }
+      .dot2 { animation: travel 3s linear infinite 0.6s; }
+      .dot3 { animation: travel 3s linear infinite 1.2s; }
+      .dot4 { animation: travel 3s linear infinite 1.8s; }
+      .node { animation: nodeGlow 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes dashMove { to { stroke-dashoffset: -40; } }
+      @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 12% { opacity: 1; } 88% { opacity: 1; } 100% { transform: translateX(200px); opacity: 0; } }
+      @keyframes nodeGlow { 0%, 100% { opacity: 0.9; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .dash, .dot, .dot2, .dot3, .dot4, .node { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1500" height="470" fill="url(#bg)"/>
+  <rect width="1500" height="470" fill="url(#grid)"/>
+  <circle cx="1320" cy="0" r="330" fill="url(#glow)"/>
+
+  <text x="80" y="62" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#6ea0ff">HOW IT WORKS</text>
+  <text x="78" y="116" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-1.1" fill="#f4f7ff">Five steps. One continuous record.</text>
+  <text x="80" y="156" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#ffd08a" direction="rtl" text-anchor="end">پنج قدم تا یک پرونده پیوسته</text>
+
+  <!-- connectors -->
+  <g>
+    <line x1="196" y1="292" x2="404" y2="292" stroke="#3D61FF" stroke-opacity="0.55" stroke-width="1.6" class="dash"/>
+    <line x1="496" y1="292" x2="704" y2="292" stroke="#3D61FF" stroke-opacity="0.55" stroke-width="1.6" class="dash"/>
+    <line x1="796" y1="292" x2="1004" y2="292" stroke="#3D61FF" stroke-opacity="0.55" stroke-width="1.6" class="dash"/>
+    <line x1="1096" y1="292" x2="1304" y2="292" stroke="#3D61FF" stroke-opacity="0.55" stroke-width="1.6" class="dash"/>
+
+    <circle cx="200" cy="292" r="3.2" fill="#5eead4" class="dot"/>
+    <circle cx="500" cy="292" r="3.2" fill="#5eead4" class="dot2"/>
+    <circle cx="800" cy="292" r="3.2" fill="#5eead4" class="dot3"/>
+    <circle cx="1100" cy="292" r="3.2" fill="#5eead4" class="dot4"/>
+  </g>
+
+  <!-- step 1 -->
+  <g>
+    <circle cx="150" cy="292" r="46" fill="url(#nodeGrad)" stroke="url(#ringGrad)" stroke-width="1.6" class="node"/>
+    <g transform="translate(136 278)" fill="none" stroke="#8fb4ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="3" width="9" height="9" rx="2.5"/>
+      <rect x="16" y="3" width="9" height="9" rx="2.5"/>
+      <rect x="3" y="16" width="9" height="9" rx="2.5"/>
+      <rect x="16" y="16" width="9" height="9" rx="2.5"/>
+    </g>
+    <circle cx="184" cy="258" r="14" fill="#3D61FF" stroke="#0a1430" stroke-width="2.5"/>
+    <text x="184" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">1</text>
+    <text x="150" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Choose a service</text>
+    <text x="150" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Appointment, consultation,</text>
+    <text x="150" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">lab or triage</text>
+  </g>
+
+  <!-- step 2 -->
+  <g>
+    <circle cx="450" cy="292" r="46" fill="url(#nodeGrad)" stroke="url(#ringGrad)" stroke-width="1.6" class="node"/>
+    <g transform="translate(436 278)" fill="none" stroke="#7fe7d6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 3v14"/>
+      <path d="M8 9l6-6 6 6"/>
+      <path d="M5 18v3.5a2.5 2.5 0 0 0 2.5 2.5h13a2.5 2.5 0 0 0 2.5-2.5V18"/>
+    </g>
+    <circle cx="484" cy="258" r="14" fill="#0d9488" stroke="#0a1430" stroke-width="2.5"/>
+    <text x="484" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">2</text>
+    <text x="450" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Share your case</text>
+    <text x="450" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Symptoms, lab reports or</text>
+    <text x="450" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">medical history</text>
+  </g>
+
+  <!-- step 3 -->
+  <g>
+    <circle cx="750" cy="292" r="46" fill="url(#nodeGrad)" stroke="url(#ringGrad)" stroke-width="1.6" class="node"/>
+    <g transform="translate(736 278)" fill="none" stroke="#c4b5fd" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 3l2.2 6.8L23 12l-6.8 2.2L14 21l-2.2-6.8L5 12l6.8-2.2z"/>
+      <path d="M23 19l.9 2.1L26 22l-2.1.9L23 25l-.9-2.1L20 22l2.1-.9z"/>
+      <path d="M5 2l.7 1.6L7.3 4.3l-1.6.7L5 6.6l-.7-1.6L2.7 4.3l1.6-.7z"/>
+    </g>
+    <circle cx="784" cy="258" r="14" fill="#7c3aed" stroke="#0a1430" stroke-width="2.5"/>
+    <text x="784" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">3</text>
+    <text x="750" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">AI-assisted clarity</text>
+    <text x="750" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Values and patterns,</text>
+    <text x="750" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">organized clearly</text>
+  </g>
+
+  <!-- step 4 -->
+  <g>
+    <circle cx="1050" cy="292" r="46" fill="url(#nodeGrad)" stroke="url(#ringGrad)" stroke-width="1.6" class="node"/>
+    <g transform="translate(1036 278)" fill="none" stroke="#8fb4ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 4v6a6 6 0 0 0 12 0V4"/>
+      <path d="M4 4h4M16 4h4"/>
+      <path d="M12.5 16v2.5a4.5 4.5 0 0 0 9 0V16"/>
+      <circle cx="21.5" cy="13.5" r="2.8"/>
+    </g>
+    <circle cx="1084" cy="258" r="14" fill="#3D61FF" stroke="#0a1430" stroke-width="2.5"/>
+    <text x="1084" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">4</text>
+    <text x="1050" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Doctor review</text>
+    <text x="1050" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">A licensed specialist</text>
+    <text x="1050" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">decides</text>
+  </g>
+
+  <!-- step 5 -->
+  <g>
+    <circle cx="1350" cy="292" r="46" fill="url(#nodeGrad)" stroke="url(#ringGrad)" stroke-width="1.6" class="node"/>
+    <g transform="translate(1336 278)" fill="none" stroke="#ffd08a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 24.5S3.5 18.2 3.5 10.6A5.9 5.9 0 0 1 14 6.9a5.9 5.9 0 0 1 10.5 3.7c0 7.6-10.5 13.9-10.5 13.9z"/>
+      <path d="M6 14h5l2-4 3 8 2-4h4"/>
+    </g>
+    <circle cx="1384" cy="258" r="14" fill="#f5a524" stroke="#0a1430" stroke-width="2.5"/>
+    <text x="1384" y="263" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#1a1206">5</text>
+    <text x="1350" y="372" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f4f7ff">Record &amp; follow-up</text>
+    <text x="1350" y="395" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">Saved with consent,</text>
+    <text x="1350" y="412" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11.5" fill="#8fa3c8">available later</text>
+  </g>
+</svg>

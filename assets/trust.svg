@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-labelledby="trustTitle trustDesc">
+  <title id="trustTitle">Trust by design — human oversight, consent-first records, no patient data in this repository</title>
+  <desc id="trustDesc">Basina's AI features support licensed doctors rather than replace them. Health records are consent-based, and this public repository contains no patient data or credentials.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050914"/>
+      <stop offset="0.6" stop-color="#070e20"/>
+      <stop offset="1" stop-color="#0a1430"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2ff"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3D61FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7aa2ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#3D61FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8fb0ff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <style>
+      .icon { animation: iconBreathe 5.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .d1 { animation-delay: 0s; } .d2 { animation-delay: 0.5s; } .d3 { animation-delay: 1s; }
+      .sweep { stroke-dasharray: 90 320; animation: sweep 5.5s linear infinite; }
+      .s2 { animation-delay: 1.8s; } .s3 { animation-delay: 3.6s; }
+      .ring { animation: ring 3.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes iconBreathe { 0%, 100% { transform: scale(1); opacity: 0.92; } 50% { transform: scale(1.07); opacity: 1; } }
+      @keyframes sweep { 0% { stroke-dashoffset: 410; } 100% { stroke-dashoffset: 0; } }
+      @keyframes ring { 0% { transform: scale(0.8); opacity: 0.5; } 80% { transform: scale(1.35); opacity: 0; } 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .icon, .sweep, .ring { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1400" height="430" fill="url(#bg)"/>
+  <rect width="1400" height="430" fill="url(#grid)"/>
+  <circle cx="240" cy="430" r="340" fill="url(#glow)"/>
+
+  <text x="82" y="60" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#5eead4">TRUST BY DESIGN</text>
+  <text x="80" y="112" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="-1" fill="#f4f7ff">AI assists. <tspan fill="url(#accent)">Doctors decide.</tspan></text>
+  <text x="82" y="144" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="15" fill="#93a4c8">Technology supports the journey; clinical accountability stays human.</text>
+  <text x="82" y="176" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#ffd08a" direction="rtl" text-anchor="end">هوش مصنوعی کمک می‌کند، پزشک تصمیم می‌گیرد</text>
+
+  <!-- card 1 -->
+  <g>
+    <rect x="82" y="210" width="396" height="180" rx="20" fill="#0b1530" stroke="#263a70"/>
+    <path d="M106 210H454" stroke="url(#hair)" stroke-width="1.4" class="sweep"/>
+    <rect x="106" y="232" width="48" height="48" rx="14" fill="#3D61FF" fill-opacity="0.14" stroke="#3D61FF" stroke-opacity="0.35"/>
+    <g transform="translate(116 242)">
+      <g fill="none" stroke="#8fb4ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon d1">
+        <path d="M6 4v6a6 6 0 0 0 12 0V4"/>
+        <path d="M4 4h4M16 4h4"/>
+        <path d="M12.5 16v2.5a4.5 4.5 0 0 0 9 0V16"/>
+        <circle cx="21.5" cy="13.5" r="2.8"/>
+      </g>
+    </g>
+    <text x="106" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">Human oversight</text>
+    <text x="106" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">Licensed physicians remain responsible for diagnosis,</text>
+    <text x="106" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">advice, and treatment decisions.</text>
+    <text x="106" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="11.5" fill="#7f93bd" direction="rtl" text-anchor="end">پزشک متخصص تصمیم نهایی را می‌گیرد</text>
+  </g>
+
+  <!-- card 2 -->
+  <g>
+    <rect x="502" y="210" width="396" height="180" rx="20" fill="#0b1530" stroke="#263a70"/>
+    <path d="M526 210H874" stroke="url(#hair)" stroke-width="1.4" class="sweep s2"/>
+    <rect x="526" y="232" width="48" height="48" rx="14" fill="#0d9488" fill-opacity="0.16" stroke="#2dd4bf" stroke-opacity="0.35"/>
+    <g transform="translate(536 242)">
+      <g fill="none" stroke="#7fe7d6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon d2">
+        <path d="M14 3l9 4v7c0 7-9 11-9 11s-9-4-9-11V7z"/>
+        <path d="M10 14l3 3 6-6"/>
+      </g>
+    </g>
+    <text x="526" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">Consent-first records</text>
+    <text x="526" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">Health records are created with consent. Patients</text>
+    <text x="526" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">choose what to share, and with whom.</text>
+    <text x="526" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="11.5" fill="#7f93bd" direction="rtl" text-anchor="end">داده سلامت فقط با رضایت شما ذخیره می‌شود</text>
+  </g>
+
+  <!-- card 3 -->
+  <g>
+    <rect x="922" y="210" width="396" height="180" rx="20" fill="#0b1530" stroke="#263a70"/>
+    <path d="M946 210H1294" stroke="url(#hair)" stroke-width="1.4" class="sweep s3"/>
+    <rect x="946" y="232" width="48" height="48" rx="14" fill="#f5a524" fill-opacity="0.14" stroke="#f5a524" stroke-opacity="0.35"/>
+    <g transform="translate(956 242)">
+      <g fill="none" stroke="#ffd08a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="icon d3">
+        <path d="M7 3h9l5 5v12a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3z"/>
+        <path d="M16 3v6h6"/>
+        <path d="M10 13l-2.5 2.5L10 18M18 13l2.5 2.5L18 18"/>
+      </g>
+    </g>
+    <text x="946" y="306" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7ff">No patient data in this repo</text>
+    <text x="946" y="326" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">This public repository holds documentation only —</text>
+    <text x="946" y="343" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" fill="#8fa3c8">never medical records, keys, or credentials.</text>
+    <text x="946" y="368" font-family="Tahoma, 'Segoe UI', sans-serif" font-size="11.5" fill="#7f93bd" direction="rtl" text-anchor="end">این مخزن هیچ پرونده پزشکی یا داده بیمار ندارد</text>
+  </g>
+</svg>
