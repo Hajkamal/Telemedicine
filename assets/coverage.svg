@@ -21,6 +21,28 @@
       <stop offset="0.5" stop-color="#7aa2ff" stop-opacity="0.8"/>
       <stop offset="1" stop-color="#3D61FF" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="gulfFill" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#1c7aa8"/>
+      <stop offset="0.45" stop-color="#11547e"/>
+      <stop offset="1" stop-color="#0d3a60"/>
+    </linearGradient>
+    <linearGradient id="gulfSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8fe9ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8fe9ff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#8fe9ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="gulfSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <mask id="gulfMask" maskUnits="userSpaceOnUse" x="280" y="440" width="320" height="250">
+      <path d="M335.8 501.9L347.9 474.4L356 464.4L369.9 472.9L381.6 468.8L397.7 503L412.2 527.4L433.2 534.7L455.2 554.4L481.8 563L503.8 550.5L520.6 545.9L531 550.5L540.3 582L548 600L555 625C540 653 500 665 460 662C420 659 380 655 350 645C338 635 332 600 331 560C330.5 530 332 508 335.8 501.9Z" fill="#fff" filter="url(#gulfSoft)"/>
+    </mask>
+    <clipPath id="gulfClip">
+      <path d="M335.8 501.9L347.9 474.4L356 464.4L369.9 472.9L381.6 468.8L397.7 503L412.2 527.4L433.2 534.7L455.2 554.4L481.8 563L503.8 550.5L520.6 545.9L531 550.5L540.3 582L548 600L555 625C540 653 500 665 460 662C420 659 380 655 350 645C338 635 332 600 331 560C330.5 530 332 508 335.8 501.9Z"/>
+    </clipPath>
+    <clipPath id="mapPanelClip">
+      <rect x="61" y="201" width="798" height="498" rx="25.5"/>
+    </clipPath>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#8fb0ff" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
@@ -39,11 +61,18 @@
       .row { animation: rowGlow 6s ease-in-out infinite; }
       .r2 { animation-delay: 1s; } .r3 { animation-delay: 2s; }
       .shine { animation: shine 5s ease-in-out infinite; }
+      .wave { animation: waveShift 11s linear infinite; }
+      .wave-b { animation-duration: 17s; animation-direction: reverse; }
+      .current { stroke-dasharray: 2.5 9; animation: currentFlow 8s linear infinite; }
+      .gulf-label { animation: gulfPulse 5.5s ease-in-out infinite; }
       @keyframes pulse { 0% { transform: scale(0.6); opacity: 0.7; } 80% { transform: scale(2.1); opacity: 0; } 100% { opacity: 0; } }
       @keyframes orbit { to { transform: rotate(360deg); } }
       @keyframes rowGlow { 0%, 100% { opacity: 0.9; } 50% { opacity: 1; } }
       @keyframes shine { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.85; } }
-      @media (prefers-reduced-motion: reduce) { .pulse, .orbit, .row, .shine { animation: none; } }
+      @keyframes waveShift { to { transform: translateX(-56px); } }
+      @keyframes currentFlow { to { stroke-dashoffset: -46; } }
+      @keyframes gulfPulse { 0%, 100% { opacity: 0.66; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .pulse, .orbit, .row, .shine, .wave, .wave-b, .current, .gulf-label { animation: none; } }
     </style>
   </defs>
 
@@ -70,6 +99,24 @@
   <path d="M86 200H834" stroke="url(#hair)" stroke-width="1.4"/>
   <text x="92" y="240" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="2.2" fill="#8fa3c8">IRAN · TODAY</text>
   <text x="828" y="240" text-anchor="end" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11" fill="#7f93bd">In-person network in 6 provinces · 56 cities</text>
+
+  <!-- Persian Gulf water -->
+  <g clip-path="url(#mapPanelClip)">
+    <g mask="url(#gulfMask)">
+      <path d="M335.8 501.9L347.9 474.4L356 464.4L369.9 472.9L381.6 468.8L397.7 503L412.2 527.4L433.2 534.7L455.2 554.4L481.8 563L503.8 550.5L520.6 545.9L531 550.5L540.3 582L548 600L555 625C540 653 500 665 460 662C420 659 380 655 350 645C338 635 332 600 331 560C330.5 530 332 508 335.8 501.9Z" fill="url(#gulfFill)"/>
+      <path d="M335.8 501.9L347.9 515.4L356 505.4L369.9 513.9L381.6 509.8L397.7 544L412.2 568.4L433.2 575.7L455.2 595.4L481.8 604L503.8 591.5L520.6 586.9L531 591.5L540.3 623" fill="none" stroke="#6fe3ff" stroke-width="5" stroke-opacity="0.12" stroke-linecap="round"/>
+      <path d="M335.8 501.9L347.9 515.4L356 505.4L369.9 513.9L381.6 509.8L397.7 544L412.2 568.4L433.2 575.7L455.2 595.4L481.8 604L503.8 591.5L520.6 586.9L531 591.5L540.3 623" fill="none" stroke="#a9f0ff" stroke-width="1.6" stroke-opacity="0.38" stroke-linecap="round"/>
+      <g clip-path="url(#gulfClip)">
+        <rect x="300" y="556" width="270" height="120" fill="url(#gulfSheen)" opacity="0.35" transform="rotate(12 435 612)"/>
+        <g fill="none" stroke="#b7efff" stroke-linecap="round">
+          <path d="M300 640q14-7 28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0" stroke-width="1.6" stroke-opacity="0.36" class="wave"/>
+          <path d="M300 654q14-6 28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0" stroke-width="1.3" stroke-opacity="0.24" class="wave wave-b"/>
+          <path d="M300 578q14-6 28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0t28 0" stroke-width="1.2" stroke-opacity="0.20" class="wave wave-b"/>
+          <path d="M330 588q10-4 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0" stroke="#e2f9ff" stroke-opacity="0.34" stroke-width="1" class="current"/>
+        </g>
+      </g>
+    </g>
+  </g>
 
   <!-- map -->
   <g filter="url(#mapShadow)">
@@ -125,6 +172,15 @@
     <circle cx="515.9" cy="585.9" r="4.4" fill="#f5a524" filter="url(#dotGlow)"/>
     <circle cx="515.9" cy="585.9" r="1.6" fill="#1a1206"/>
     <text x="529.9" y="598.9" text-anchor="start" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffd9a0" stroke="#0a1430" stroke-width="2.6" paint-order="stroke">Hormozgan</text>
+  </g>
+
+  <!-- Persian Gulf label -->
+  <g clip-path="url(#mapPanelClip)">
+    <g>
+      <text x="398" y="606" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#c8f4ff" stroke="#041a30" stroke-opacity="0.72" stroke-width="2.8" paint-order="stroke" class="gulf-label">PERSIAN</text>
+      <text x="398" y="630" text-anchor="middle" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#c8f4ff" stroke="#041a30" stroke-opacity="0.72" stroke-width="2.8" paint-order="stroke" class="gulf-label">GULF</text>
+      <path d="M368 644q7-4 14 0t14 0t14 0t14 0" fill="none" stroke="#8fe4ff" stroke-width="1.3" stroke-linecap="round" class="gulf-label"/>
+    </g>
   </g>
 
   <!-- legend -->
